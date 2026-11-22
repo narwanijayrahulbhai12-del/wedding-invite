@@ -60,8 +60,8 @@ window.WEDDING_CONFIG = {
      GRANDPARENTS: either use grandfatherName / grandmotherName above, or add people here, e.g.
        { name: "Shri Ramesh Kewalramani", relation: "Grandfather of the Groom", side: "groom" },            */
   familyMembers: [
-    { name: "Late Shri Ram Kapoor", relation: "Grandfather of the Bride", side: "bride", photo: "" },
-    { name: "Late Smt. Sita Kapoor", relation: "Grandmother of the Bride", side: "bride", photo: "" },
+    // { name: "Late Shri Ram Kapoor", relation: "Grandfather of the Bride", side: "bride", photo: "" },
+    // { name: "Late Smt. Sita Kapoor", relation: "Grandmother of the Bride", side: "bride", photo: "" },
     { name: "Suresh Kewalramani", relation: "Father of the Groom", side: "groom", photo: "" },
     { name: "Anita Kewalramani", relation: "Mother of the Groom", side: "groom", photo: "" },
     { name: "Rohan Kewalramani", relation: "Brother of the Groom", side: "groom", photo: "" },
