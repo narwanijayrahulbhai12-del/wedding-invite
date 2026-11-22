@@ -1,0 +1,24 @@
+LIVE WISHES WALL + RSVP SHEET + EMAIL  (free, about 10 minutes, once)
+
+1. Go to sheets.google.com and create a new blank spreadsheet. Name it "Wedding RSVP".
+2. Menu: Extensions > Apps Script. Delete the sample code and paste EVERYTHING from apps-script.gs.
+3. At the top change  your-email@gmail.com  to your own email. (AUTO_APPROVE false = you approve wishes first.)
+4. Click Save (disk icon). Click Run (choose function "doGet" first). Google asks for permission:
+   Review permissions > choose your account > Advanced > "Go to ... (unsafe)" > Allow.
+   (It says unsafe only because you wrote the script yourself.)
+5. Click Deploy > New deployment > the gear icon > Web app.
+     Execute as: Me
+     Who has access: Anyone
+   Click Deploy. Copy the "Web app URL" (it ends with /exec).
+6. Open config.js, find   webAppUrl: "",   and paste the URL between the quotes. Save.
+7. Push to GitHub (git add . / git commit / git push). Render updates in ~2 minutes.
+
+HOW IT WORKS
+- A guest sends a wish  -> a new row appears in the sheet tab "Wishes" + you get an email.
+- Tick the "Approved" box on that row -> the wish shows on the wishes wall for everyone (refresh the page).
+- A guest fills RSVP    -> a row in the tab "RSVP" (name, attending, guests, message) + an email to you.
+- If you change the script later: Deploy > Manage deployments > edit (pencil) > Version: New version > Deploy.
+
+OTHER IDEAS YOU CAN ASK ME FOR
+- Add-to-calendar button, guest count total, WhatsApp share button, background music, password-protected invites,
+  separate links per family ("Dear Sharma family"), a custom domain like darshan-khyati.com.

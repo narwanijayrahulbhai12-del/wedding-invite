@@ -1,0 +1,11 @@
+OPAL ROMANCE WEDDING INVITATION
+
+1. EDIT      Open config.js in Notepad. Change text between the quotes. Save.
+             Remove/move sections: edit the  sections: [ ... ]  list.
+             Remove an event: delete its block or add  show: false  inside it.
+2. PREVIEW   Double-click preview.bat (needs Python from python.org, tick "Add Python to PATH").
+             Edit config.js, save, refresh the browser.
+3. PHOTOS    Put photos in the "photos" folder, write "/photos/name.jpg" in config.js.
+4. PUBLISH   Push the files INSIDE this folder to GitHub, then Render > New > Static Site > Publish Directory "."
+             git add .   git commit -m "update"   git push
+5. EXTRA     Double-click get-original-images.bat once (internet needed) to download the exact desktop pictures. Details: DESKTOP-IMAGES.txt

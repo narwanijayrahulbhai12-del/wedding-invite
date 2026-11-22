@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: wedding-invitation
+    runtime: static
+    staticPublishPath: .
+    headers:
+      - path: /_next/static/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable

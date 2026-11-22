@@ -1,0 +1,22 @@
+WHY THIS FILE
+-------------
+The recording the site was copied from was made on a phone, so a few images that only laptops/desktops
+(or custom couple photos) use were never downloaded. I filled those gaps with stand-ins so everything works,
+but for a pixel-exact match, save the 8 pictures below from the original site into the folders shown
+(open each link in your browser, right-click > Save image as..., replace the existing file).
+
+Save into  templates/opal-romance/gate/
+  https://invitima.com/templates/opal-romance/gate/landscape.webp
+  https://invitima.com/templates/opal-romance/gate/landscape-left.webp
+  https://invitima.com/templates/opal-romance/gate/landscape-right.webp
+  https://invitima.com/templates/opal-romance/gate/landscape-opening.png
+
+Save into  templates/opal-romance/hero/
+  https://invitima.com/templates/opal-romance/hero/landscape.webp
+
+Save into  templates/opal-romance/backdrop/
+  https://invitima.com/templates/opal-romance/backdrop/sky-wide.webp
+
+Save into  templates/opal-romance/couple/      (only matters when you add your own groom/bride photos)
+  https://invitima.com/templates/opal-romance/couple/frame-arabesque.webp
+  https://invitima.com/templates/opal-romance/couple/frame-arabesque-mask.png
