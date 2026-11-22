@@ -34,8 +34,8 @@ window.WEDDING_CONFIG = {
      ADD an event    : copy a block and change it.
      The block named "Wedding" (matching weddingDate) is treated as the main venue. */
   events: [
-    { name: "Sangeet", icon: "🎶", date: "2026-12-12T19:00:00+05:30", time: "7:00 PM", venueName: "Shri Chhapru Hall", address: "Ghogha Circle, Bhavnagar", mapUrl: "https://www.google.com/maps?rlz=1C1RXQR_en-GBIN1195IN1195&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MgoIAhAAGLEDGIAEMgcIAxAAGIAEMg0IBBAuGK8BGMcBGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTAxNGowajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KT3qFLZlWl85Mfw2d0gHRR1y&daddr=Q575%2B8FR,+Ghogha+Cir,+Near+Bhavnagar+T.V.+Kendra,+Ambawadi,+Krishna+Nagar,+Bhavnagar,+Gujarat+364001", dressCode: "Festive Indo-Western", order: 2,note: " " },
-    { name: "Wedding", icon: "💍", date: "2026-12-12T19:00:00+05:30", time: "7:00 PM", venueName: "Shri Chhapru Hall", address: "Ghogha Circle, Bhavnagar", mapUrl: "https://maps.google.com/?q=MG+Road+Gurugram", lat: 28.4595, lng: 77.0266, dressCode: "Traditional Formal", order: 3 },
+    { name: "Sangeet", icon: "🎶", date: "2026-12-12T19:00:00+05:30", time: "7:00 PM", venueName: "Shri Chhapru Hall", address: "Ghogha Circle, Bhavnagar", mapUrl: "https://www.google.com/maps?rlz=1C1RXQR_en-GBIN1195IN1195&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MgoIAhAAGLEDGIAEMgcIAxAAGIAEMg0IBBAuGK8BGMcBGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTAxNGowajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KT3qFLZlWl85Mfw2d0gHRR1y&daddr=Q575%2B8FR,+Ghogha+Cir,+Near+Bhavnagar+T.V.+Kendra,+Ambawadi,+Krishna+Nagar,+Bhavnagar,+Gujarat+364001", dressCode: "Dance & Dinner", dressLabel: "Followed by", order: 2,note: " " },
+    { name: "Wedding", icon: "💍", date: "2026-12-12T19:00:00+05:30", time: "7:00 PM", venueName: "Shri Chhapru Hall", address: "Ghogha Circle, Bhavnagar", mapUrl: "https://maps.google.com/?q=MG+Road+Gurugram", lat: 28.4595, lng: 77.0266, dressCode: "Your Presence is Our Blessing", dressLabel: "With Blessings", order: 3 },
   ],
 
   /* ---------- OUR STORY (timeline) - delete blocks to remove ---------- */
