@@ -138,7 +138,7 @@ window.WEDDING_CONFIG = {
      Then: every RSVP and wish goes into your Google Sheet and is emailed to you,
            and APPROVED wishes show on the wishes wall for everyone.
      Leave "" to keep the template's sample wishes.                                                       */
-  webAppUrl: "https://script.google.com/macros/s/AKfycbz8TJzWW9eS3ubFT0qG8MICE3rUwo7Fo3tD4XzEeeHeYrDWp2MdaPD90r7m9byCHnGbVA/exec",
+  webAppUrl: "https://script.google.com/macros/s/AKfycby2snJt6pZiYK3JXMghU0NjkhGzCzs1VdrQyn2-ePPpJ7DhRc-cMcUgRV8_K-mC0bfPDA/exec",
   autoApprove: false,      /* true = a wish appears on the wall immediately (no approval). false = you tick "Approved" in the sheet */
   demoWishes: true,        /* false = hide the sample wishes even if webAppUrl is empty */
 
