@@ -7,12 +7,12 @@
 window.WEDDING_CONFIG = {
 
   /* ---------- COUPLE ---------- */
-  groom: { firstName: "Darshan", lastName: "Kewalramani", fatherName: "Suresh Kewalramani", motherName: "Anita Kewalramani",
-           grandfatherName: "", grandmotherName: "",   /* grandparents - shown in a "Grand S/O ..." card. Leave "" to hide */
+  groom: { firstName: "Darshan", lastName: "Kewalramani", fatherName: "Mr Sanjay Kewalramani", motherName: "Mrs Kajal Kewalramani",
+           grandfatherName: "Late Shree Narayandas Kewalramani", grandmotherName: "Late Shreemati Jayshree Kewalramani",   /* grandparents - shown in a "Grand S/O ..." card. Leave "" to hide */
            photo: "",            /* e.g. "/photos/groom.jpg"  ("" = template artwork) */
            about: "Loves cricket, old Bollywood songs, and his mother's rajma chawal.", instagram: "Darshan.Kewalramani" },
   bride: { firstName: "Khyati", lastName: "Kapoor", fatherName: "Mr Gopal Kapoor", motherName: "Mrs Sunita Kapoor",
-           grandfatherName: "Late Shri Ram Kapoor", grandmotherName: "Late Smt. Sita Kapoor",   /* e.g. "Late Shri Ramesh Sharma" / "Smt. Kamla Sharma" */
+           grandfatherName: "Late Shree Ram Kapoor", grandmotherName: "Late Shreemati Sita Kapoor",   /* e.g. "Late Shri Ramesh Sharma" / "Smt. Kamla Sharma" */
            photo: "",            /* e.g. "/photos/bride.jpg" */
            about: "A classical dancer who never says no to a road trip.", instagram: "Khyati.sharma" },
   
@@ -27,6 +27,7 @@ window.WEDDING_CONFIG = {
      place by adding  ownVenue: true  inside it.  An event can also be left out of the venue cards with
      hideFromVenues: true. */
   nameOrder: "bride",
+    finaleName: "Kapoor Family",
   venue: { venueName: "Shri Chhapru Hall", address: "Ghogha Circle, Bhavnagar", mapUrl: "https://www.google.com/maps?rlz=1C1RXQR_en-GBIN1195IN1195&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MgoIAhAAGLEDGIAEMgcIAxAAGIAEMg0IBBAuGK8BGMcBGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTAxNGowajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KT3qFLZlWl85Mfw2d0gHRR1y&daddr=Q575%2B8FR,+Ghogha+Cir,+Near+Bhavnagar+T.V.+Kendra,+Ambawadi,+Krishna+Nagar,+Bhavnagar,+Gujarat+364001" },
 
   /* ---------- EVENTS (one block per function) ----------
@@ -62,8 +63,8 @@ window.WEDDING_CONFIG = {
   familyMembers: [
     // { name: "Late Shri Ram Kapoor", relation: "Grandfather of the Bride", side: "bride", photo: "" },
     // { name: "Late Smt. Sita Kapoor", relation: "Grandmother of the Bride", side: "bride", photo: "" },
-    { name: "Suresh Kewalramani", relation: "Father of the Groom", side: "groom", photo: "" },
-    { name: "Anita Kewalramani", relation: "Mother of the Groom", side: "groom", photo: "" },
+    { name: "Mr Sanjay Kewalramani", relation: "Father of the Groom", side: "groom", photo: "" },
+    { name: "Mrs Kajal Kewalramani", relation: "Mother of the Groom", side: "groom", photo: "" },
     { name: "Rohan Kewalramani", relation: "Brother of the Groom", side: "groom", photo: "" },
     { name: "Mr Gopal Kapoor", relation: "Father of the Bride", side: "bride", photo: "" },
     { name: "Mrs Sunita Kapoor", relation: "Mother of the Bride", side: "bride", photo: "" },
@@ -72,7 +73,7 @@ window.WEDDING_CONFIG = {
 
   /* ---------- CONTACTS ---------- */
   contacts: [
-    { name: "Mr Gopal Kapoor", phone: "+91 98765 43210", relation: "Bride's Father" },
+    { name: "Mr Gopal Kapoor", phone: "+91 98242 33150", relation: "Bride's Father" },
     { name: "Ayush Kapoor", phone: "+91 73837 81791", relation: "Bride's Brother" }
   ],
 
